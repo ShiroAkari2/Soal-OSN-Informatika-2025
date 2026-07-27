@@ -31,6 +31,5 @@ int main() {
     }
 
     cout << total_pasangan_malang << "\n";
-
     return 0;
 }
