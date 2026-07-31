@@ -3,8 +3,6 @@ using namespace std;
 
 int N, Q, K;
 vector<long long> A;
-
-// tree_sum[node] menyimpan total sum elemen di node tersebut
 vector<long long> tree_sum;
 
 // tree_bit_sum[node][b] menyimpan sum(A[i]) di mana bit b dari indeks asli i adalah 1
