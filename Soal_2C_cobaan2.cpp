@@ -3,8 +3,8 @@ using namespace std;
 
 // Struktur hasil kueri
 struct Node {
-    long long sum;     // Sum of A[i]
-    long long sum_idx; // Sum of A[i] * i_current
+    long long sum;    
+    long long sum_idx;
 };
 
 int N, Q, K;
