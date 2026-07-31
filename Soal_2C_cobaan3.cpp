@@ -4,8 +4,6 @@ using namespace std;
 int N, Q, K;
 vector<long long> A;
 vector<long long> tree_sum;
-
-// tree_bit_sum[node][b] menyimpan sum(A[i]) di mana bit b dari indeks asli i adalah 1
 vector<vector<long long>> tree_bit_sum;
 
 // Membangun Segment Tree berbasis bit
